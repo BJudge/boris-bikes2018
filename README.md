@@ -31,9 +31,15 @@
     I want to see a bike that has been docked
   </tr>
   <tr>
-  <td> 4. </td>
+  <td> 5. </td>
   <td> As a member of the public,
     So that I am not confused and charged unnecessarily,
     I'd like docking stations not to release bikes when there are none available.
+  </tr>
+  <tr>
+  <td> 6. </td>
+  <td> As a maintainer of the system,
+    So that I can control the distribution of bikes,
+    I'd like docking stations not to accept more bikes than their capacity.
   </tr>
 </table>
