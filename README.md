@@ -72,4 +72,16 @@
     So that I can manage broken bikes and not disappoint users,
     I'd like docking stations to accept returning bikes (broken or not).
   </tr>
+  <tr>
+  <td> 12. </td>
+  <td> As a maintainer of the system,
+    So that I can manage broken bikes and not disappoint users,
+    I'd like vans to take broken bikes from docking stations and deliver them to garages to be fixed.
+  </tr>
+  <tr>
+  <td> 13. </td>
+  <td> As a maintainer of the system,
+    So that I can manage broken bikes and not disappoint users,
+    I'd like vans to collect working bikes from garages and distribute them to docking stations.
+  </tr>
 </table>
