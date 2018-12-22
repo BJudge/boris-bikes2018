@@ -13,6 +13,13 @@ describe DockingStation do
     it 'raises an error when there are no bikes available' do
       expect { subject.release_bike }.to raise_error 'No bikes available'
     end
+    it 'raises an error when there are no working bikes' do
+      station = DockingStation.new
+      bike= Bike.new
+      bike.report_broken
+      station.dock(bike)
+      expect { station.release_bike}.to raise_error 'No working bikes available'
+    end
   end
 
   describe '#initialization' do
